@@ -1,4 +1,4 @@
-# GestureControl with NRF24L01 Transreceiver Wireless module
+# GestureControl with NRF24L01 Transceiver Wireless module
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,13 +12,13 @@
 
 
 ## General info
-Gesture Controlled 4 wheel drive which is connected with the RC using NRF24L01 Transreceiver Wireless module.
+Gesture Controlled 4 wheel drive which is connected with the RC using NRF24L01 Transceiver Wireless module.
 This project uses MPU6050 as an IMU. The IMU is attached to the transmitter end. Readings from the MPU is send over to the receiver end which will perform a directional motion based on the incoming readings.
 
 ## Technology
 Project is created with:
 * C/C++
-* NRF24L01 Transreceiver Wireless module
+* NRF24L01 Transceiver Wireless module
 * MPU6050
 
 ## Features
@@ -40,7 +40,7 @@ Project is created with:
 * Consists of:
   * AtMega328/MCU
   * MPU6050
-  * Wireless module (NRF24L01 Transreceiver Wireless module)
+  * Wireless module (NRF24L01 Transceiver Wireless module)
 * Initialization
 ```
 #include <SPI.h>
@@ -119,7 +119,7 @@ Project is created with:
 * Consists of:
   * AtMega328/MCU
   * Motor driver module
-  * Wireless module (NRF24L01 Transreceiver Wireless module)
+  * Wireless module (NRF24L01 Transceiver Wireless module)
 
 * Initialization
 ```
